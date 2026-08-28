@@ -1,0 +1,46 @@
+.hero {
+  background-color: rgb(105, 67, 255);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.main {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  color: white;
+  background-color: rgb(105, 67, 255);
+  width: 100px;
+  padding: 6px 22px;
+  border: 2px solid white;
+  font-size: 58px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.conversion {
+  background-color: lightgray;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+button {
+  display: block;
+  margin: 10px auto 10px auto;
+  padding: 6px 22px;
+}
+
+.length,
+.volume,
+.mass {
+  background-color: white;
+  color: black;
+  margin: 10px;
+  border: 2px solid whitesmoke;
+  align-items: center;
+  text-align: center;
+}
