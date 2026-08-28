@@ -11,15 +11,7 @@ const kiloToPound = 2.204;
 
 convertBtn.addEventListener("click", function () {
   let baseValue = inputEl.value;
-  lengthEl.textContent = `${baseValue} meter = ${baseValue * meterToFeet} feet`;
-});
-
-convertBtn.addEventListener("click", function () {
-  let baseValue = inputEl.value;
-  volumeEl.textContent = `${baseValue} liters = ${baseValue * literToGallon} gallons`;
-});
-
-convertBtn.addEventListener("click", function () {
-  let baseValue = inputEl.value;
-  massEl.textContent = `${baseValue} kilograms = ${baseValue * kiloToPound} pounds`;
+  lengthEl.textContent = `${baseValue} meters = ${(baseValue * meterToFeet).toFixed(3)} feet | ${baseValue} feet = ${(baseValue / meterToFeet).toFixed(3)} meters`;
+  volumeEl.textContent = `${baseValue} liters = ${(baseValue * literToGallon).toFixed(3)} gallons | ${baseValue} gallons = ${(baseValue / literToGallon).toFixed(3)} liters`;
+  massEl.textContent = `${baseValue} kilograms = ${(baseValue * kiloToPound).toFixed(3)} pounds | ${baseValue} pounds = ${(baseValue / kiloToPound).toFixed(3)} kilograms`;
 });
