@@ -1,4 +1,4 @@
-# Unit-converter Project
+# Unit-converter 
 
 Built a responsive Unit Converter application using HTML, CSS, and JavaScript. The app allows users to instantly convert between metric and imperial units, including length (meters/feet), volume (liters/gallons), and mass (kilograms/pounds). Implemented dynamic user input handling, mathematical conversion logic, and real-time updates to display results. Focused on creating a clean user interface and improving JavaScript fundamentals such as DOM manipulation, functions, event handling, and number formatting.
 
